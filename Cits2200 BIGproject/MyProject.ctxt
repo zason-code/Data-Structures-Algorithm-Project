@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MyProject
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyProject\ here.\r\n\r\n\ @author\ Jason\ Ho\ JiaSheng,\ 22360143\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=image\ row\ col
+comment1.target=int\ floodFillCount(int[][],\ int,\ int)
+comment1.text=\r\n\ Count\ number\ of\ contiguous\ pixels\ that\ have\ to\ change\ to\ black\ starting\ from\ row,col.\r\n\r\n\ @param\ image\ The\ greyscale\ image\ as\ defined\ above\r\n\ @param\ row\ The\ row\ index\ of\ the\ pixel\ to\ flood-fill\ from\r\n\ @param\ col\ The\ column\ index\ of\ the\ pixel\ to\ flood-fill\ from\r\n\ @return\ The\ number\ of\ pixels\ that\ changed\ colour\ when\ performing\ this\ operation\r\n
+comment2.params=image\ k
+comment2.target=int\ brightestSquare(int[][],\ int)
+comment2.text=\r\n\ Find\ the\ brightest\ k\ x\ k\ square\ (biggest\ sum)\r\n\r\n\ @param\ image\ The\ greyscale\ image\ as\ defined\ above\r\n\ @param\ k\ the\ dimension\ of\ the\ squares\ to\ consider\r\n\ @return\ The\ total\ brightness\ of\ the\ brightest\ square\r\n
+comment3.params=image\ ur\ uc\ vr\ vc
+comment3.target=int\ darkestPath(int[][],\ int,\ int,\ int,\ int)
+comment3.text=\r\n\ Find\ the\ minimum\ maximum\ value\ encountered\ from\ ur,uc\ to\ vr,vc\r\n\r\n\ @param\ image\ The\ greyscale\ image\ as\ defined\ above\r\n\ @param\ ur\ The\ row\ index\ of\ the\ start\ pixel\ for\ the\ path\r\n\ @param\ uc\ The\ column\ index\ of\ the\ start\ pixel\ for\ the\ path\r\n\ @param\ vr\ The\ row\ index\ of\ the\ end\ pixel\ for\ the\ path\r\n\ @param\ vc\ The\ column\ index\ of\ the\ end\ pixel\ for\ the\ path\r\n\ @return\ The\ minimum\ brightness\ of\ any\ path\ from\ (ur,\ uc)\ to\ (vr,\ vc)\r\n
+comment4.params=image\ queries
+comment4.target=int[]\ brightestPixelsInRowSegments(int[][],\ int[][])
+comment4.text=\r\n\ For\ each\ query,\ find\ the\ value\ of\ the\ brightest\ pixel\ in\ the\ specified\ row\ segment.\r\n\r\n\ @param\ image\ The\ greyscale\ image\ as\ defined\ above\r\n\ @param\ queries\ The\ list\ of\ query\ row\ segments\r\n\ @return\ The\ list\ of\ brightest\ pixels\ for\ each\ query\ row\ segment\r\n
+comment5.params=image\ segtree\ start\ end\ row\ col
+comment5.target=void\ constructTree(int[][],\ int[][],\ int,\ int,\ int,\ int)
+comment6.params=st\ en
+comment6.target=int\ getMid(int,\ int)
+comment7.params=st\ start\ end\ l\ r\ row\ node
+comment7.target=int\ Maxfunc(int[][],\ int,\ int,\ int,\ int,\ int,\ int)
+numComments=8

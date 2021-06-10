@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=SampleProjectUnitTest
+comment0.text=\r\n\ @author\ Andrew\ "Gozz"\ Gozzard\ <andrew.gozzard@uwa.edu.au>\r\n\r\n\ A\ sample\ unit\ tester\ for\ the\ 2020\ CITS2200\ Project.\r\n\r\n\ DO\ NOT\ modify\ this\ file\ in\ the\ course\ of\ completing\ your\ project.\r\n\ You\ are,\ however,\ encouraged\ to\ copy\ it\ and\ use\ it\ to\ construct\ your\ own\ tests.\r\n
+comment1.params=name\ pass
+comment1.target=void\ test(java.lang.String,\ boolean)
+comment1.text=\r\n\ Helper\ function\ to\ print\ out\ a\ test\ result\ nicely\ and\ update\ counters\r\n\ @param\ name\ The\ name\ of\ the\ test\ to\ display\ as\ output\r\n\ @param\ pass\ Whether\ or\ note\ the\ test\ passed\r\n
+comment2.params=name\ actual\ expected
+comment2.target=void\ testInts(java.lang.String,\ int,\ int)
+comment3.params=
+comment3.target=void\ floodFillCountTest()
+comment4.params=
+comment4.target=void\ brightestSquareTest()
+comment5.params=
+comment5.target=void\ darkestPathTest()
+comment6.params=
+comment6.target=void\ brightestPixelsInRowSegmentsTest()
+comment7.params=
+comment7.target=void\ printSummary()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9
